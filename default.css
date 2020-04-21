@@ -11,75 +11,35 @@
 	  font-weight: 300;
 	  color: #000000;
 	}
-
 	h1, h2, h3 {
-	  margin: 0;
-	  padding: 0;
-	}
-
-	p, ol, ul {
-	  margin-top: 0;
-	}
-
-	ol, ul {
-	  padding: 0;
-	  list-style: none;
-	}
-
-	p {
-	  line-height: 180%;
-	}
-
-	strong {}
-
+		margin: 0;
+		padding: 0;
+	  }
+  
+	  p, ol, ul {
+		margin-top: 0;
+	  }
+  
+	  ol, ul {
+		padding: 0;
+		list-style: none;
+	  }
+  
+	  p {
+		line-height: 180%;
+	  }
 	a {
-	  color: #96063b;
-	}
-
+		color: #96063b;
+	  }
 	a:hover {
-	  text-decoration: none;
-	}
+		text-decoration: none;
+	  }
 
 	.container {
-	  overflow: hidden;
-	  margin: 0em auto;
-	  width: 1200px;
-	}
-
-	/* Image Style                                                                   */
-	.image {
-	  display: inline-block;
-	}
-
-	.image img {
-	  display: block;
-	  width: 100%;
-	}
-
-	.image-full {
-	  display: block;
-	  width: 100%;
-	  margin: 0 0 2em 0;
-	}
-
-	.image-left {
-	  float: left;
-	  margin: 0 2em 2em 0;
-	}
-
-	.image-centered {
-	  display: block;
-	  margin: 0 0 2em 0;
-	}
-
-	.image-centered img {
-	  margin: 0 auto;
-	  width: auto;
-	}
-
-	/* List Styles                                                                   */
-	ul.style1 {}
-
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	  }
 	/* Social Icon Styles                                                            */
 	ul.contact {
 	  margin: 0;
@@ -169,8 +129,7 @@
 
 	.box1,
 	.box2,
-	.box3,
-	  {
+	.box3 {
 	  float: left;
 	  margin-right: 20px;
 	}
@@ -230,8 +189,6 @@
 	  left: 2em;
 	}
 
-	#logo h1 {}
-
 	#logo a {
 	  text-decoration: none;
 	  color: #FFF;
@@ -264,9 +221,11 @@
 	  text-decoration: underline;
 	}
 
-	#menu .current_page_item a {}
-
-	#menu .icon {}
+	a.active {
+		background-color: #ffffff;
+		color: #96063b !important;
+		font-weight: 600;
+	}
 
 	/* Welcome                                                                       */
 	#welcome {
@@ -290,12 +249,6 @@
 	  padding: 7em 100px 3em 100px;
 	  background: #FFF;
 	}
-
-	#page .boxA,
-	#page .boxB,
-	#page .boxC {}
-
-	#page .boxA {}
 
 	#page .box {
 	  margin-bottom: 4em;
@@ -325,40 +278,6 @@
 	  font-weight: 700;
 	  color: rgba(0, 0, 0, 0.8);
 	}
-
-	/* Content                                                                       */
-	#content {}
-
-	/* Sidebar                                                                       */
-	#sidebar {}
-
-	/* Footer                                                                        */
-	#footer {
-	  overflow: hidden;
-	  padding: 5em 0em 3em 0em;
-	  border-top: 1px solid rgba(0, 0, 0, 0.08);
-	}
-
-	/* Copyright                                                                     */
-	#copyright {
-	  overflow: hidden;
-	  padding: 5em 0em;
-	  border-top: 1px solid rgba(0, 0, 0, 0.08);
-	}
-
-	#copyright p {
-	  letter-spacing: 0.20em;
-	  text-align: center;
-	  text-transform: uppercase;
-	  font-size: 0.80em;
-	  color: rgba(255, 255, 255, 0.3);
-	}
-
-	#copyright a {
-	  text-decoration: none;
-	  color: rgba(255, 255, 255, 0.6);
-	}
-	@charset 'UTF-8';
 
 	@font-face
 	{
