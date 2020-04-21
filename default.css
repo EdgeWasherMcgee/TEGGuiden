@@ -172,7 +172,7 @@
 	/* Header                                                                        */
 	#header-wrapper {
 	  overflow: hidden;
-	  height: 40em;
+	  margin-bottom: 5em;
 	}
 
 	#header {
