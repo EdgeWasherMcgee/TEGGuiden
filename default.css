@@ -11,6 +11,45 @@
 	  font-weight: 300;
 	  color: #000000;
 	}
+
+	.centered {
+		text-align: center;
+	}	
+
+	.classical {
+		margin-left: auto;
+		margin-right: auto;
+		width: fit-content;
+		min-width: 500px;
+		border-color: rgb(240, 104, 42);
+		border-collapse: collapse;
+	}
+	
+	/* Changes the styles for everything under the table */
+	.classical * {
+		font-family: sans-serif;
+		border-collapse: collapse;
+		text-align: center;
+	}
+	
+	.classical th {
+		text-align: center;
+	}
+	
+	.classical td, th{
+		border: 1px solid black; 
+		border-collapse: collapse;
+	}
+
+	.classical td {
+		height: 1.5em;
+	}
+
+	.classical th {
+		font-weight: bold;
+	}
+	
+
 	h1, h2, h3 {
 		margin: 0;
 		padding: 0;
@@ -130,7 +169,7 @@
 	.box1,
 	.box2,
 	.box3 {
-	  float: left;
+	  float: center;
 	  margin-right: 20px;
 	}
 
@@ -148,7 +187,8 @@
 	.boxA,
 	.boxB {
 	  float: left;
-	  margin-right: 20px;
+	  margin-right: 10px;
+	  margin-left: 10px;
 	}
 
 	.boxC {
